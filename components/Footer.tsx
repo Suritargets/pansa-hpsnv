@@ -20,10 +20,10 @@ const holdingLinks = [
 ];
 
 const machineShopLinks = [
-  { label: "About", href: "https://wordpress-788002-4027960.cloudwaysapps.com/about-us/" },
-  { label: "How We Work", href: "https://wordpress-788002-4027960.cloudwaysapps.com/how-we-work/" },
-  { label: "Services & Products", href: "https://wordpress-788002-4027960.cloudwaysapps.com/services-products/" },
-  { label: "Contact", href: "https://wordpress-788002-4027960.cloudwaysapps.com/contact-us/" },
+  { label: "About", href: "https://pansa-machinery.vercel.app/about-us" },
+  { label: "How We Work", href: "https://pansa-machinery.vercel.app/how-we-work" },
+  { label: "Services & Products", href: "https://pansa-machinery.vercel.app/services-products" },
+  { label: "Contact", href: "https://pansa-machinery.vercel.app/contact" },
 ];
 
 export default function Footer() {
