@@ -23,7 +23,7 @@ const machineShopLinks = [
   { label: "About", href: "https://pansa-machinery.vercel.app/about-us" },
   { label: "How We Work", href: "https://pansa-machinery.vercel.app/how-we-work" },
   { label: "Services & Products", href: "https://pansa-machinery.vercel.app/services-products" },
-  { label: "Contact", href: "https://pansa-machinery.vercel.app/contact" },
+  { label: "Contact", href: "https://pansa-machinery.vercel.app/contact-us" },
 ];
 
 export default function Footer() {
