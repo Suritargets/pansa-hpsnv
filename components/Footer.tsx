@@ -12,11 +12,11 @@ const hpsnvLinks = [
 ];
 
 const holdingLinks = [
-  { label: "About", href: "https://wordpress-788002-4027942.cloudwaysapps.com/index.php/about-us/" },
-  { label: "How We Work", href: "https://wordpress-788002-4027942.cloudwaysapps.com/index.php/how-we-work/" },
-  { label: "Sustainability", href: "https://wordpress-788002-4027942.cloudwaysapps.com/index.php/sustainability/" },
-  { label: "Events", href: "https://wordpress-788002-4027942.cloudwaysapps.com/index.php/events/" },
-  { label: "Contact", href: "https://wordpress-788002-4027942.cloudwaysapps.com/index.php/contact-us/" },
+  { label: "About", href: "https://pansa-holding.vercel.app/about-us" },
+  { label: "How We Work", href: "https://pansa-holding.vercel.app/how-we-work" },
+  { label: "Sustainability", href: "https://pansa-holding.vercel.app/sustainability" },
+  { label: "Events", href: "https://pansa-holding.vercel.app/events" },
+  { label: "Contact", href: "https://pansa-holding.vercel.app/contact" },
 ];
 
 const machineShopLinks = [
@@ -81,7 +81,7 @@ export default function Footer() {
         {/* Pansa Holding */}
         <div>
           <h4 className="font-bold text-gray-900 mb-4 uppercase tracking-wide text-sm">
-            Pansa Holding N.V.
+            Pansa Group of Companies N.V.
           </h4>
           <ul className="space-y-2">
             {holdingLinks.map((l) => (
