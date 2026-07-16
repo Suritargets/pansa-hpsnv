@@ -12,7 +12,9 @@ export default function TopBar() {
           <span className="font-medium">info@hpsnv.com</span>
           <div className="flex gap-3">
             <a
-              href="#"
+              href="https://www.facebook.com/pansagroup/"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Facebook"
               className="w-7 h-7 rounded-full bg-brand-green flex items-center justify-center text-white hover:opacity-80 transition-opacity"
             >
@@ -21,16 +23,20 @@ export default function TopBar() {
               </svg>
             </a>
             <a
-              href="#"
-              aria-label="Twitter"
+              href="https://www.youtube.com/channel/UClIVqfD71jK_1Uk63Rt3I7Q/featured"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
               className="w-7 h-7 rounded-full bg-brand-green flex items-center justify-center text-white hover:opacity-80 transition-opacity"
             >
               <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58a2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/pansaholding/"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
               className="w-7 h-7 rounded-full bg-brand-green flex items-center justify-center text-white hover:opacity-80 transition-opacity"
             >
@@ -41,7 +47,9 @@ export default function TopBar() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/40653366/admin/dashboard/"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="LinkedIn"
               className="w-7 h-7 rounded-full bg-brand-green flex items-center justify-center text-white hover:opacity-80 transition-opacity"
             >
