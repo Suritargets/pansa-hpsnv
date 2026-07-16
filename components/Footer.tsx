@@ -12,7 +12,7 @@ const hpsnvLinks = [
 ];
 
 const holdingLinks = [
-  { label: "About", href: "https://pansa-holding.vercel.app/about-us" },
+  { label: "About", href: "https://pansa-holding.vercel.app/about" },
   { label: "How We Work", href: "https://pansa-holding.vercel.app/how-we-work" },
   { label: "Sustainability", href: "https://pansa-holding.vercel.app/sustainability" },
   { label: "Events", href: "https://pansa-holding.vercel.app/events" },
