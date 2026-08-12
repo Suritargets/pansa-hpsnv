@@ -191,13 +191,6 @@ const coreValues = [
   },
 ];
 
-const teamMembers = [
-  { name: "Rogerio Boda", role: "Petrol Leader", img: "bearded-machine-operator-posing-for-photography-ZXF4DY3.jpg" },
-  { name: "Kay Cunningham", role: "Petrol Handler", img: "professional-young-industrial-factory-woman-employ-BAG2MGU.jpg" },
-  { name: "Juanita Javier", role: "Petrol Manager", img: "african-american-elderly-woman-worker-in-industria-C7W38XZ.jpg" },
-  { name: "Fabricio Malo", role: "Petrol Operator", img: "joyful-male-engineer-standing-by-tractor-at-factor-B54T3VP.jpg" },
-];
-
 export default function AboutUsPage() {
   const [facilitiesOpen, setFacilitiesOpen] = useState(true);
   const [historyOpen, setHistoryOpen] = useState(false);
@@ -717,59 +710,6 @@ export default function AboutUsPage() {
               className="object-cover"
               sizes="50vw"
             />
-          </div>
-        </section>
-
-        {/* 7. Meet Our Team */}
-        <section className="py-16 px-4" style={{ backgroundColor: "#f5f5f5" }}>
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
-              <p
-                className="text-xs font-bold uppercase tracking-widest mb-3"
-                style={{ color: "#1c9848" }}
-              >
-                Our People
-              </p>
-              <h2
-                className="text-4xl md:text-6xl font-extrabold uppercase"
-                style={{ color: "#f8cc39", fontFamily: "var(--font-teko)" }}
-              >
-                MEET OUR TEAM
-              </h2>
-              <div className="w-10 h-0.5 mx-auto mt-4" style={{ backgroundColor: "#1c9848" }} />
-            </div>
-
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              {teamMembers.map((member) => (
-                <div key={member.name} className="bg-white overflow-hidden shadow-sm">
-                  <div className="relative h-64 overflow-hidden">
-                    <Image
-                      src={`${BASE}/${member.img}`}
-                      alt={member.name}
-                      fill
-                      className="object-cover object-top"
-                    />
-                  </div>
-                  <div
-                    className="p-4 text-center"
-                    style={{ borderTop: `3px solid #f8cc39` }}
-                  >
-                    <h3
-                      className="font-extrabold uppercase text-xl leading-tight"
-                      style={{ color: "#1a1a1a", fontFamily: "var(--font-teko)" }}
-                    >
-                      {member.name}
-                    </h3>
-                    <p
-                      className="text-xs font-semibold uppercase tracking-wide mt-1"
-                      style={{ color: "#1c9848" }}
-                    >
-                      {member.role}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </section>
       </main>
