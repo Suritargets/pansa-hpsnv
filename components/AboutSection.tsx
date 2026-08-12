@@ -74,7 +74,7 @@ export default function AboutSection() {
                 className="text-5xl font-extrabold leading-none"
                 style={{ color: "#1c9848", fontFamily: "var(--font-teko)" }}
               >
-                <Counter target={15} /> +
+                <Counter target={30} /> +
               </div>
               <div className="text-sm font-semibold text-gray-700 mt-1">Years Experiences</div>
             </div>

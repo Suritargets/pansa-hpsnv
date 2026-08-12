@@ -110,7 +110,7 @@ function CircleProgress({
 const coreValues = [
   {
     title: "Customer Focus",
-    description: "We ensure that the customer is satisfied, by accurately identifying our customers' needs and desires so that we can meet them. We add more value to our customers' projects by analyzing the design and research to find the best solution for their demands.",
+    description: "We want to know what our customers' wishes are, and we think and act accordingly within the objectives of our organization. We are committed to meeting the identified wishes and needs of our customers. We approach our customers with respect. We put our energy into what we can do, rather than explaining what we cannot do. We ensure that the customer is satisfied by accurately identifying our customers' requirements and expectations, and we add more value to our customers' projects by researching and analyzing the design to find the best solution for their needs.",
     icon: (
       <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
         <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
@@ -119,7 +119,7 @@ const coreValues = [
   },
   {
     title: "Quality",
-    description: "We provide high-quality services and products that meet the national, regional and international standards & best practices, the expectations and requirements of our customers, suppliers and partners.",
+    description: "We offer high-quality services and products that meet national, regional and international quality standards and best practices, as well as the requirements and expectations of all our customers, suppliers and partners.",
     icon: (
       <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
         <path d="M21 7L9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7z"/>
@@ -127,17 +127,8 @@ const coreValues = [
     ),
   },
   {
-    title: "Excellence",
-    description: "We do everything in excellence, from the initial contact with our customer to the delivery of our services and products.",
-    icon: (
-      <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-      </svg>
-    ),
-  },
-  {
-    title: "Health, Safety & Environment",
-    description: "We work safely, promote wellness and protect the environment",
+    title: "Occupational Safety, Health & Environment",
+    description: "We pay close attention to our health and occupational safety in the workplace, and we protect the environment.",
     icon: (
       <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
         <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
@@ -145,8 +136,35 @@ const coreValues = [
     ),
   },
   {
+    title: "Excellence",
+    description: "We do everything with excellence, from the initial contact with our customer to the delivery of our services and products.",
+    icon: (
+      <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Innovation",
+    description: "We are flexible, creative, dynamic and innovative. We continuously work to improve and raise our standards in everything we do, so as to increase our excellence. This enables us to innovate and implement new ideas within our products and services.",
+    icon: (
+      <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7z"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Responsibility & Commitment",
+    description: "We take responsibility, individually and as a team, for our behavior, actions and results. We are committed to our work and do our best to achieve our goals. We are motivated to perform above average, to invest energy in our work and to fully use and develop our own qualities, and we show enthusiasm in carrying out our tasks. We keep our knowledge and skills up to date, and we take responsibility for carrying out our department and job descriptions.",
+    icon: (
+      <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+      </svg>
+    ),
+  },
+  {
     title: "Collaboration & Teamwork",
-    description: "Our team collaborates with our customer by engaging in meaningful, honest, open and healthy discussions to find the best solutions. Teamwork, positive attitudes and mutual respect are essential to our success.",
+    description: "We collaborate with our customers through meaningful discussion and honest, open and structured consultation to find the best solution. Collaboration, positive attitudes and mutual respect are essential to our success. We can count on each other, and we are reliable in our actions, behavior and thinking.",
     icon: (
       <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
         <path d="M9 12l-4.463 4.969-1.595-1.57L7 11.64V7h2v5zm5.447 4.993L19 12v-5h-2v4.64l-3.948 3.759 1.395 1.594zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
@@ -155,10 +173,19 @@ const coreValues = [
   },
   {
     title: "Professionalism & Leadership",
-    description: "As a team we work in a professional and respectful manner, as specialist in our field of work. We help and coach each other to identify, prevent and manage the risks and solve problems.",
+    description: "We work as a team in a professional and respectful manner, and always strive to excel in the best version of our tasks, authorities and responsibilities. We support and coach each other in order to identify and manage risks, and to prevent and solve problems.",
     icon: (
       <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm0 14c-2.03 0-4.43-.82-6.14-2.88C7.55 15.8 9.68 15 12 15s4.45.8 6.14 1.12C16.43 19.18 14.03 20 12 20z"/>
+      </svg>
+    ),
+  },
+  {
+    title: "Integrity",
+    description: "We act from moral principles, honesty and personal values that align with our organization's general principles and core values. We say what we do and do what we say. We don't talk about each other, we talk with each other. We communicate openly and welcome feedback, we handle information confidentially, and we adhere to the rules of social and societal decency.",
+    icon: (
+      <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-1.18 13.41L7.4 11l1.41-1.41 2.01 2.01L15.6 7.83 17 9.24l-6.18 6.17z"/>
       </svg>
     ),
   },
@@ -250,7 +277,7 @@ export default function AboutUsPage() {
                   className="font-extrabold leading-none"
                   style={{ color: "#f8cc39", fontFamily: "var(--font-teko)", fontSize: "5rem" }}
                 >
-                  <Counter target={15} /><sup className="text-4xl ml-1">+</sup>
+                  <Counter target={30} /><sup className="text-4xl ml-1">+</sup>
                 </div>
                 <div className="text-sm font-semibold text-gray-700 uppercase tracking-wide mt-1">
                   Years Experiences
@@ -281,8 +308,9 @@ export default function AboutUsPage() {
                   </h3>
                 </div>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  CCC H. Pansa &amp; Sons N.V. strives to be the best provider of human resource
-                  development and industrial services in Suriname and the region
+                  CCC H. Pansa &amp; Sons N.V. strives to be the best provider of sustainable
+                  human resource and industrial mechanical maintenance, manufacturing and
+                  development services and products in Suriname and the region.
                 </p>
               </div>
 
@@ -307,9 +335,10 @@ export default function AboutUsPage() {
                   </h3>
                 </div>
                 <p className="text-gray-800 text-sm leading-relaxed">
-                  CCC H. Pansa &amp; Sons N.V. is committed to provide its services based on quality,
-                  safety and environmental best practices, to meet the customers&apos; requirements and
-                  expectations.
+                  CCC H. Pansa &amp; Sons N.V. is committed to delivering services and products
+                  based on international standards for health, occupational safety, environment,
+                  quality and best practices, in order to meet the requirements and expectations
+                  of the customer.
                 </p>
               </div>
             </div>
