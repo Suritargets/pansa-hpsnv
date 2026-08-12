@@ -127,7 +127,7 @@ const coreValues = [
     ),
   },
   {
-    title: "Occupational Safety, Health & Environment",
+    title: "Occupational, Health & Safety Environment",
     description: "We pay close attention to our health and occupational safety in the workplace, and we protect the environment.",
     icon: (
       <svg className="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
@@ -329,7 +329,7 @@ export default function AboutUsPage() {
                 </div>
                 <p className="text-gray-800 text-sm leading-relaxed">
                   CCC H. Pansa &amp; Sons N.V. is committed to delivering services and products
-                  based on international standards for Occupational Safety, Health &amp; Environment
+                  based on international standards for Occupational, Health &amp; Safety Environment
                   and best practices, in order to meet the requirements and expectations
                   of the customer.
                 </p>
