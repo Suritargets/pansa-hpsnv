@@ -113,7 +113,7 @@ export default function Footer() {
 
       <div className="border-t border-gray-200 py-5 px-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-gray-500">
-          <p>© 2019–2023 Pansa Group of Companies N.V. All rights reserved.</p>
+          <p>© 2026 Pansa Group of Companies N.V. All rights reserved.</p>
           <p>Design by Suritargets</p>
         </div>
       </div>
