@@ -336,8 +336,8 @@ export default function AboutUsPage() {
                 </div>
                 <p className="text-gray-800 text-sm leading-relaxed">
                   CCC H. Pansa &amp; Sons N.V. is committed to delivering services and products
-                  based on international standards for health, occupational safety, environment,
-                  quality and best practices, in order to meet the requirements and expectations
+                  based on international standards for Occupational Safety, Health &amp; Environment
+                  and best practices, in order to meet the requirements and expectations
                   of the customer.
                 </p>
               </div>
