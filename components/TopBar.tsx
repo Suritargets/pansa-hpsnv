@@ -4,8 +4,8 @@ export default function TopBar() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2 text-sm text-gray-800">
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-6">
           <span>
-            <strong>Phone:</strong> (+597) 6802051 / (+597) 6802052 &nbsp;
-            <strong>Mobile:</strong> (+597) 7698047 / (+597) 7698050
+            <strong>Phone:</strong> (+597) 323451 &nbsp;
+            <strong>Mobile:</strong> (+597) 7698051 / (+597) 7698047
           </span>
         </div>
         <div className="flex items-center gap-4">

@@ -56,8 +56,8 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-gray-800 mb-1 text-sm uppercase tracking-wide">More Information</h4>
             <p className="text-gray-500 text-sm">
-              Phone: (+597) 6802051 / (+597) 6802052<br />
-              Mobile: (+597) 7698047 / (+597) 7698050
+              Phone: (+597) 323451<br />
+              Mobile: (+597) 7698051 / (+597) 7698047
             </p>
           </div>
         </div>

@@ -157,8 +157,8 @@ export default function ContactPage() {
                 </p>
                 <p className="text-sm text-gray-800 leading-relaxed">
                   Office hours from: 8:00 - 16:00<br />
-                  (+597) 6802051/(+597) 6802052<br />
-                  (+597) 7698047/(+597) 7698050
+                  (+597) 323451<br />
+                  (+597) 7698051/(+597) 7698047
                 </p>
               </div>
 
