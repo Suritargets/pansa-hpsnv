@@ -137,7 +137,7 @@ export default function ContactPage() {
                   OUR OFFICE
                 </p>
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  Address: Martin Luther King Highway km 23 Para - Suriname (South-America)
+                  Address: Martin Luther Kingweg km 23 Para - Suriname (South-America)
                 </p>
               </div>
 

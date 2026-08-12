@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="mb-4">
             <h4 className="font-bold text-gray-800 mb-1 text-sm uppercase tracking-wide">Office</h4>
             <p className="text-gray-500 text-sm leading-relaxed">
-              Martin Luther King Highway km 23<br />Para – Suriname (South America)
+              Martin Luther Kingweg km 23<br />Para – Suriname (South America)
             </p>
           </div>
           <div className="mb-4">
