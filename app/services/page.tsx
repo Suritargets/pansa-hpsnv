@@ -163,7 +163,7 @@ export default function ServicesPage() {
               <ul className="space-y-2.5 text-sm text-gray-700 mb-6">
                 {[
                   "Quality technical vocational training and demand-driven programs & Qualification (ASME, AWS, API, NIL, SBB, CANTA-CVQ, VCA)",
-                  "HSE Training programs for staff at all working locations company-wide",
+                  "Occupational Health Safety, Environment & Quality Training programs for staff at all working locations company-wide",
                   "ISO Training programs",
                   "Welding, Machining, Mechanical and Electrical Maintenance & Repair training programs",
                 ].map((item) => (
