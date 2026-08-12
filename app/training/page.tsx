@@ -16,7 +16,7 @@ const trainingCourses = [
   "Process Operation",
   "Electrical Power and Controls",
   "Process and Equipment",
-  "Dozer, Escavator Operator Training",
+  "Dozer, Excavator Operator Training",
 ];
 
 const trainingPhotos = [
