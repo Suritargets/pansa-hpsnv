@@ -6,7 +6,6 @@ import AboutSection from "@/components/AboutSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import ServicesSection from "@/components/ServicesSection";
 import StatsSection from "@/components/StatsSection";
-import HiringSection from "@/components/HiringSection";
 import TrainingSection from "@/components/TrainingSection";
 import BannerSection from "@/components/BannerSection";
 import GallerySection from "@/components/GallerySection";
@@ -25,7 +24,6 @@ export default function Home() {
         <WhyChooseUs />
         <ServicesSection />
         <StatsSection />
-        <HiringSection />
         <TrainingSection />
         <BannerSection />
         <GallerySection />
